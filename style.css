@@ -11,7 +11,7 @@ nav {
     display: flex;
 }
 
-nav a {
+a {
     padding: 10px;
     text-decoration: none;
     color: black;
@@ -49,5 +49,10 @@ button {
     color: white;
     width: 100px;
     height: 40px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
